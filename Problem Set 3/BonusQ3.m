@@ -33,7 +33,7 @@ end
 
 % Writing into another .wav file which saves Navin's job.
 try
-    audiowrite('thankyou_for_saving_my_job.wav', modifiedAudioData, sampleRate);
+    audiowrite('thankyou_for_saving_my_job2.wav', modifiedAudioData, sampleRate);
     disp('The volume of the snare drums has been successfully reduced as per the specified ranges.');
 catch
     error('Error: The modified audio file could not be written. Please try again later.');
